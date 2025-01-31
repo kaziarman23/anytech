@@ -1,7 +1,11 @@
+import Advertisement from "./Advertisement";
+import Hero from "./Hero";
+
 const Home = () => {
   return (
-    <div>
-      <span className="text-red-500">home</span>
+    <div className="">
+      {/* <Hero /> */}
+      <Advertisement />
     </div>
   );
 };
