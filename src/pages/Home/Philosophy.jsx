@@ -3,7 +3,7 @@ import data from "../../lib/PhilosophyFeatureData.json";
 
 const Philosophy = () => {
   return (
-    <div className="w-4/5 h-screen mx-auto space-y-10">
+    <div className="w-4/5 h-full mx-auto space-y-10">
       <SectionHeading
         title={"OUR PHILOSOPHY"}
         description={"Human-centred innovation"}

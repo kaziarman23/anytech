@@ -1,7 +1,7 @@
 const Advertisement = () => {
   return (
-    <div className="w-full h-full ">
-      <div className="w-4/5 h-full mx-auto flex justify-center items-center">
+    <div className="w-full h-full">
+      <div className="w-4/5 h-screen mx-auto flex justify-center items-center">
         {/* Advertisement || Left side content */}
         <div className="w-1/2 h-full flex justify-center flex-col gap-7">
           <p className="text-[#579FF3] font-extrabold  tracking-[4px]">

@@ -1,5 +1,5 @@
 const Hero = () => {
-  return <div className=""></div>;
+  return <div className="w-full h-screen border-2"></div>;
 };
 
 export default Hero;
