@@ -76,7 +76,7 @@ const Founder = () => {
         }
         imageSize={"h-4/5"}
         svgs={SvgIcons}
-        TopBackgroundImage={"https://anytxn.com/backgrounds/about/frame2.svg"}
+        // TopBackgroundImage={"https://anytxn.com/backgrounds/about/frame2.svg"}
       />
     </div>
   );
