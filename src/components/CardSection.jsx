@@ -9,7 +9,17 @@ const CardSection = ({ data, className, hight }) => {
             ${hight ? hight : "h-80"}
             ${className ? className : ""}`}
           >
-            <img src={content.icon} alt={content.title} />
+            {content.BgColor ? (
+              <figure
+                className={`w-fit p-3 rounded-full ${
+                  content.BgColor ? content.BgColor : ""
+                }`}
+              >
+                <img src={content.icon} alt={content.title} />
+              </figure>
+            ) : (
+              <img src={content.icon} alt={content.title} />
+            )}
             <h1 className="text-[#1E4068] text-2xl font-bold">
               {content.title}
             </h1>

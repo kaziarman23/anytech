@@ -7,6 +7,8 @@ const ServiceSection = ({
   imageSize,
   TopBackgroundImage,
   BottomBackgroundImage,
+  ExtraImage,
+  ExtraImageClass,
   svgs = [],
 }) => {
   return (
@@ -56,7 +58,17 @@ const ServiceSection = ({
                 />
               </figure>
             )}
-            {/* Dynamic SVG's  */}
+
+            {/* Background Bottom Image */}
+            {ExtraImage && (
+              <figure
+                className={`absolute ${ExtraImageClass && ExtraImageClass}`}
+              >
+                <img src={ExtraImage} alt={title} className="w-full h-full" />
+              </figure>
+            )}
+
+            {/* Dynamic SVG's  Part*/}
             {svgs.map((svg, index) => (
               <figure
                 key={index}
