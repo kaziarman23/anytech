@@ -5,3 +5,36 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* Navbar Items */
+
+#solution-hover-items {
+  opacity: 0;
+  display: hidden;
+  height: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+#solution-hover:hover + #solution-hover-items {
+  display: inline-block;
+  opacity: 1;
+  height: fit-content;
+  padding: 15px;
+  font-size: 17px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#solution-hover-items:hover {
+  display: inline-block;
+  opacity: 1;
+  height: fit-content;
+  padding: 15px;
+  font-size: 17px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#solution-hover:hover + #solution-hover-item > #divider {
+  height: 1px;
+  transition: opacity 0.3s ease-in-out;
+}
