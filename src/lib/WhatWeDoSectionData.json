@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/7a9cf2d3db229dc1c4653e84eceb530a6fc71dce-50x50.svg?w=50&auto=format",
+    "title": "Consult",
+    "description": "Our breadth of consulting expertise spans from applying the latest financial technological innovations to implementing risk-control strategies."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/9e462c2ea5be862ce8e92c40c79f4ff4dd5adf2f-50x50.svg?w=50&auto=format",
+    "title": "Implement",
+    "description": "Combining deep technological expertise and a proven track record, we design and implement custom solutions for financial institutions that drive long-term success."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/673712175d19a9f10a1e6b9e7170572a566fa41a-50x50.svg?w=50&auto=format",
+    "title": "Operate",
+    "description": "We provide a full suite of operational and support services that continue throughout the product life cycle."
+  }
+]

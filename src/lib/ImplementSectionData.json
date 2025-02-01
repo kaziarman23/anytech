@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/dfd2c06c2fb0e17354dbcf1536a370354614a44a-50x50.svg?w=50&auto=format",
+    "title": "New Setup",
+    "description": "Create banking infrastructure from the ground up to better serve your needs and your customers."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/4238f41bf03f51144006f1db1f57a09d3e08b1f3-50x50.svg?w=50&auto=format",
+    "title": "System Upgrade",
+    "description": "Modernise your current infrastructure to overcome challenges posed by legacy systems."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/692da3ae687ceeb284d22c859e21fb8ab9cfb55c-50x50.svg?w=50&auto=format",
+    "title": "System Migration",
+    "description": "Seamlessly migrate your data and integrations to newer systems without business interruptions."
+  }
+]

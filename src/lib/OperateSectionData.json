@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "icon": "https://cdn.sanity.io/images/6jywt20u/production/7a9cf2d3db229dc1c4653e84eceb530a6fc71dce-50x50.svg?w=50&auto=format",
+      "title": "Operational Support",
+      "description": "Deploy our team to manage and maintain your AnyTech solutions so that you can focus on your core business and strategic initiatives."
+    },
+    {
+      "id": 2,
+      "icon": "https://cdn.sanity.io/images/6jywt20u/production/7ba6b75462dbb32531fa4a3aaf876dcb0003100c-50x50.svg?w=50&auto=format",
+      "title": "Personalised Services",
+      "description": "From developing new business opportunities to running backend IT maintenance, our team can also provide any other support you require."
+    },
+    {
+      "id": 3,
+      "icon": "https://cdn.sanity.io/images/6jywt20u/production/8a7406b0289b55c79054cdebd65e93bad0be0927-50x50.svg?w=50&auto=format",
+      "title": "24/7 Technical Support",
+      "description": "Our customer success team is available around the clock to address your enquiries and resolve any issues that may arise. "
+    }
+  ]
+  
