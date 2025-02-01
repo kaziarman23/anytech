@@ -3,21 +3,28 @@
     "id": 1,
     "icon": "https://cdn.sanity.io/images/6jywt20u/production/b0aad958e67b14acb6374bd620f5295dcca8aa14-20x19.svg?w=20&auto=format",
     "BgColor": "bg-[#d6f9f9]",
-    "title": "Experts in technology and finance",
-    "description": "With our team's deep expertise in the finance and tech sectors, we are catalysts for change, paving the way for innovation and strategic reorientation, shaping the future of finance."
+    "title": "Driven",
+    "description": "Motivated by a desire for change, we empower our customers by tenaciously striving for breakthroughs in financial services."
   },
   {
     "id": 2,
     "icon": "https://cdn.sanity.io/images/6jywt20u/production/b6bd4d0e15f433717344c859df990a5ef9bd6929-20x21.svg?w=20&auto=format",
     "BgColor": "bg-[#ffe2d4]",
-    "title": "Empowerment through technology",
+    "title": "Agile",
     "description": "Empowering more than 40 financial institutions to transform in a digital-first world, our innovative platform enables banks and financial institutions to develop customer-centric financial products and offerings."
   },
   {
     "id": 3,
     "icon": "https://cdn.sanity.io/images/6jywt20u/production/feaee2ab96c6cedf6433ed46f5fdb81ef1d523ba-26x21.svg?w=26&auto=format",
     "BgColor": "bg-[#e9f3ff]",
-    "title": "Understanding evolving needs",
+    "title": "Global",
+    "description": "By staying at the forefront of technology and understanding the evolving needs of the industry, we strive to provide cutting-edge solutions that drive efficiency, enhance user experiences, and enable financial inclusion."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/feaee2ab96c6cedf6433ed46f5fdb81ef1d523ba-26x21.svg?w=26&auto=format",
+    "BgColor": "bg-[#e9f3ff]",
+    "title": "Open",
     "description": "By staying at the forefront of technology and understanding the evolving needs of the industry, we strive to provide cutting-edge solutions that drive efficiency, enhance user experiences, and enable financial inclusion."
   }
 ]
