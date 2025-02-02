@@ -478,7 +478,7 @@
       </defs>
     </svg>
   </div>
-  <div classNameName="absolute top-0 left-0">
+  <div className="absolute top-0 left-0">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="2355"
@@ -1564,8 +1564,13 @@
       </defs>
     </svg>
   </div>
-  {/* ............  style={{ mixBlendMode: "multiply" }} ... */}
 
+  {/*   
+  ---------
+  style={{ mixBlendMode: "multiply" }}
+  style={{ background: "transparent" }}
+  ---------
+  */}
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -1573,6 +1578,6 @@
     height=""
     width=""
   >
-   
+    
   </svg>
 </>;

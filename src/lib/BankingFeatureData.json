@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/3f726dd108ed3d3c117fd35c90ec92d76989223e-50x51.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Seamless API Integration",
+    "description": "AnyBaaS provides a suite of robust APIs, allowing seamless integration with existing systems and enabling the rapid launch of new banking services and products."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/3341dac95ffe09f747ab5fabffc3e3609963d39b-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "White-labelled Solutions",
+    "description": "Our platform supports the deployment of white-label solutions such as mobile banking, digital wallets, lending platforms, and payment gateways, all under your own brand."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/76435e822c628c1335871524b894761c4534d372-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Real-time Transaction Processing",
+    "description": "AnyBaaS enables real-time processing of transactions, enhancing operational efficiency and customer satisfaction."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/ff851b4a41ab1a2cecfe1e8ea9b16c41f747d9f9-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Comprehensive Compliance Tools",
+    "description": "Our platform includes built-in tools to ensure compliance with regulatory requirements, including KYC, AML, CDD, and GDPR."
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/7a751a5337e2cbc49152c964ae3e2edf6bcf58dc-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "AI-Powered Analytics & Risk Management",
+    "description": "Leverage our advanced analytics for risk management, fraud detection, and customer insight generation, powered by cutting-edge artificial intelligence and machine learning technologies."
+  },
+  {
+    "id": 6,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/a8e6e0ab36a610d71efd7533aafbd81446c7cb17-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Secure Infrastructure",
+    "description": "Our highly secure infrastructure safeguards sensitive data and transactions, adhering to the highest standards of cybersecurity."
+  }
+]
