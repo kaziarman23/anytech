@@ -5,7 +5,8 @@ import Services from "../pages/Services/Services";
 import Aboutus from "../pages/Aboutus/Aboutus";
 import Contactus from "../pages/Contactus/Contactus";
 import AnyCaaS from "../pages/AnyCaaS/AnyCaaS";
-import AnyBaaS from "../pages/AnyBaas/AnyBaaS";
+import AnyBaaS from "../pages/AnyBaaS/AnyBaaS";
+import AnyPaaS from "../pages/AnyPaaS/AnyPaaS";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/anybaas",
         element: <AnyBaaS />,
+      },
+      {
+        path: "/anypaas",
+        element: <AnyPaaS />,
       },
     ],
   },

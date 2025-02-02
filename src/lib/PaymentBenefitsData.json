@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/c4d1f4ece08c9982bc0c152fe1ed4025e1b5b7bb-50x51.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Efficient Processing",
+    "description": "With AnyPaaS, you can process payments faster and more efficiently, enhancing your operational efficiency and customer satisfaction."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/1145f8181640917b7d142de2d1fc31d860ebc22f-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Agility & Innovation",
+    "description": "Stay ahead of the competition by quickly adapting to new payment trends and technologies, meeting the evolving needs of your customers."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/6c88826c3d2e8aa24b18c351d8240299178aa5df-50x51.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Cost-effective",
+    "description": "AnyPaaS eliminates the need for heavy upfront investments in payment infrastructure, allowing you to only pay for the services you use."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/efd152863fe998189b9a8f74e94df347fb15364e-50x51.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Risk Management",
+    "description": "Our advanced fraud detection capabilities help mitigate payment fraud risks, protecting your institution and your customers from potential financial losses."
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/90de1a3d3c943a1206d938b486bb149778bb9d9f-50x51.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Customer Experience",
+    "description": "Provide your customers with a variety of secure, convenient, and fast payment options, enhancing their overall banking experience."
+  }
+]

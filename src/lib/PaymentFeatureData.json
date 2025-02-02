@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/5b581501581575cdde7ed1e483765a63245818ae-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Multi-Channel Payment Processing",
+    "description": "AnyPaaS supports a wide range of payment channels including credit/debit cards, bank transfers, e-wallets, and mobile payments, providing your customers with a variety of payment options."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/f493b1616d42b6789e38b423047c6ed8e27d7102-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Seamless API Integration",
+    "description": "Our robust APIs ensure seamless integration with your existing banking systems and applications, enabling real-time data exchange and interoperability."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/6f5667a66bca8deb4706d463e7049dbe70e7ffb9-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Real-time Transaction Monitoring",
+    "description": "Track and monitor transactions in real-time with our advanced analytics dashboard. Gain insights into transaction trends, customer behaviour, and potential fraudulent activities."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/477b870625ad14f12a387c3fb2fe6b74d09c1c5c-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Advanced Fraud Detection",
+    "description": "Leverage our AI-powered fraud detection system that continuously monitors transactions, providing instant alerts on suspicious activities to mitigate risks."
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/a5d1f0299b075c8e15e8bb9ae4ef596085999cdc-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Regulatory Compliance",
+    "description": "AnyPaaS is fully compliant with all relevant payment regulations including PCI DSS, ensuring secure and legal payment processing."
+  },
+  {
+    "id": 6,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/ab5fa9a6ef8d51fa9dafb9486cc4395d42e68a25-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-purple-400",
+    "title": "Scalable Infrastructure",
+    "description": "Our platform is built to handle high-volume transactions, making it ideal for large financial institutions aiming for growth and expansion."
+  }
+]
