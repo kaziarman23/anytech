@@ -3,6 +3,8 @@ import Root from "../layout/root";
 import Home from "../pages/Home/Home";
 import Services from "../pages/Services/Services";
 import Aboutus from "../pages/Aboutus/Aboutus";
+import Contactus from "../pages/Contactus/Contactus";
+import AnyCaaS from "../pages/AnyCaaS/AnyCaaS";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "/aboutus",
         element: <Aboutus />,
+      },
+      {
+        path: "/contactus",
+        element: <Contactus />,
+      },
+      {
+        path: "/anycaas",
+        element: <AnyCaaS />,
       },
     ],
   },

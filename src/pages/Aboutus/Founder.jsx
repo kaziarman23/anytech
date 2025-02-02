@@ -59,7 +59,37 @@ const Founder = () => {
         </>
       ),
     },
+    {
+      top: 0,
+      left: 0,
+      width: 320,
+      height: 320,
+      viewBox: "0 0 320 320",
+      SvgClass: "-z-10",
+      content: (
+        <>
+          <path
+            d="M-9.99228e-06 85.2179L-3.05176e-05 320L320 3.05176e-05L85.2177 9.99226e-06L-9.99228e-06 85.2179Z"
+            fill="url(#paint0_linear_6490_16105)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_6490_16105"
+              x1="320"
+              y1="-0.000113419"
+              x2="35.6863"
+              y2="303.922"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#00E9EA" />
+              <stop offset="1" stopColor="#0D7DFE" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+        </>
+      ),
+    },
   ];
+
   return (
     <div className="w-full h-full">
       <ServiceSection
@@ -76,7 +106,6 @@ const Founder = () => {
         }
         imageSize={"h-4/5"}
         svgs={SvgIcons}
-        // TopBackgroundImage={"https://anytxn.com/backgrounds/about/frame2.svg"}
       />
     </div>
   );

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/1145f8181640917b7d142de2d1fc31d860ebc22f-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Speed to Market",
+    "description": "Launch new card programmes with ease and enjoy a competitive advantage via a faster time-to-market."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/253c20e46eb0a8be5418d4a80968143e96ff7994-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Cost-effective",
+    "description": "Eliminate the hefty upfront investments associated with traditional card issuance systems. Pay as you grow with our CaaS model, aligning costs with the scale of your operations."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/09def8db67d41777c5b9c853c0c8e2eecf70d390-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Scalability",
+    "description": "AnyTech’s scalable architecture is built to support a constantly growing customer base and an evolving portfolio of products and services."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/6adbe70b6c524ea4ac82dc100d132bb9bd05fb53-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Customer Experience",
+    "description": "Improve customer satisfaction with instant card issuance, personalised card designs, and real-time transaction monitoring."
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/9e9111ffc5e17a40a2b5a806e2b7ae7c54565dae-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#f9fdff]",
+    "title": "Innovation",
+    "description": "Stay ahead of the competition by leveraging our continuous innovation, from contactless cards to mobile wallet integrations."
+  }
+]

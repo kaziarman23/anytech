@@ -1,5 +1,6 @@
 const ServiceSection = ({
   title,
+  titleColor,
   heading,
   description,
   secondDescription,
@@ -16,7 +17,10 @@ const ServiceSection = ({
       <div className="w-4/5 h-screen mx-auto flex justify-center items-center">
         {/* Advertisement || Left side content */}
         <div className="w-1/2 h-full flex justify-center flex-col gap-7 p-2">
-          <p className="text-[#579FF3] font-extrabold  tracking-[4px]">
+          <p
+            className={`font-extrabold uppercase tracking-[4px]
+            ${titleColor ? titleColor : "text-[#579FF3]"}`}
+          >
             {title}
           </p>
           <h1 className="text-5xl text-[#1E4068] font-bold">{heading}</h1>

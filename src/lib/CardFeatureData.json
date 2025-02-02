@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/0d7e6faf925dd55d78fe41a3b748cf18cc25af19-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Easy Card Issuance & Management",
+    "description": "Issue and manage all types of payment cards, including debit, credit, prepaid, and virtual cards via a unified platform. Easily configure card rules, limits, and policies per your business needs."
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/87af08293976a2895fb63d4dcc17a493703b4637-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Flexible API Integration",
+    "description": "Our robust APIs ensure seamless integration with your existing infrastructure, enabling real-time data exchange and cross-platform compatibility."
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/869185bc816f374d0062fec4147694ee2b7a79e9-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Customisable Card Design",
+    "description": "Leverage our platform to create unique card designs that reflect your brand identity."
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/960e3f97b606caff0649e6af837f0ebf1108b06c-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Real-time Reporting & Analytics",
+    "description": "Track and analyse card transactions in real-time with our intuitive dashboard and reporting features. Gain insights into customer spending patterns and card usage trends."
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/73442d1702e6a83e9d5c5ff553e79c501a025719-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Fraud Detection & Prevention",
+    "description": "Our advanced AI-driven fraud detection system monitors card transactions around the clock, providing instant alerts on suspicious activities and helping to prevent fraudulent transactions."
+  },
+  {
+    "id": 6,
+    "icon": "https://cdn.sanity.io/images/6jywt20u/production/032db5256aa10d62b227c92c70734b11d16a1ea0-50x50.svg?w=50&auto=format",
+    "BgColor": "bg-[#d7f3d3]",
+    "title": "Secure & Compliant",
+    "description": "AnyTech adheres to the highest level of data security standards and is fully compliant with PCI DSS, GDPR, and other relevant regulations."
+  }
+]

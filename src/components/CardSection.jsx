@@ -1,17 +1,19 @@
-const CardSection = ({ data, className, hight }) => {
+const CardSection = ({ data, CardBg, className, hight }) => {
   return (
     <div className="w-full h-full">
-      <div className="flex justify-evenly items-center gap-5 ">
+      <div className="grid grid-cols-3 gap-5 place-items-center">
         {data.map((content) => (
           <div
             key={content.id}
-            className={`w-1/3 bg-[#F9FCFE] rounded-2xl p-5 space-y-5 
+            className={`w-full rounded-2xl p-5 space-y-5 
+            ${CardBg ? CardBg : "bg-[#F9FCFE]"}
             ${hight ? hight : "h-80"}
-            ${className ? className : ""}`}
+            ${className ? className : ""}
+            `}
           >
             {content.BgColor ? (
               <figure
-                className={`w-fit p-3 rounded-full ${
+                className={`w-fit rounded-full ${
                   content.BgColor ? content.BgColor : ""
                 }`}
               >
