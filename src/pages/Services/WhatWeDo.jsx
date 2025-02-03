@@ -10,6 +10,7 @@ const WhatWeDo = () => {
       width: 148,
       height: 147,
       viewBox: "0 0 148 147",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -88,6 +89,7 @@ const WhatWeDo = () => {
       width: 108,
       height: 109,
       viewBox: "0 0 108 109",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -180,7 +182,6 @@ const WhatWeDo = () => {
         TopBackgroundImage={
           "https://anytxn.com/backgrounds/home/futureOfFinance/background.svg"
         }
-        
         svgs={SvgIcons}
       />
       {/* Card Part */}

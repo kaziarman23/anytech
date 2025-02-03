@@ -6,6 +6,7 @@ const PaymentService = () => {
       bottom: 0,
       right: 0,
       width: 229,
+      animation:"true",
       height: 229,
       viewBox: "0 0 229 229",
       SvgClass: "-z-10",
@@ -35,6 +36,7 @@ const PaymentService = () => {
       top: 0,
       left: 0,
       width: 320,
+      animation:"true",
       height: 320,
       viewBox: "0 0 320 320",
       SvgClass: "-z-10",
@@ -64,6 +66,7 @@ const PaymentService = () => {
       top: 20,
       left: 70,
       width: 208,
+      animation:"true",
       height: 233,
       viewBox: "0 0 208 233",
       content: (
@@ -181,6 +184,7 @@ const PaymentService = () => {
       left: 0,
       width: 160,
       height: 175,
+      animation:"true",
       viewBox: "0 0 160 175",
       content: (
         <>

@@ -8,6 +8,7 @@ const Founder = () => {
       width: 229,
       height: 229,
       viewBox: "0 0 229 229",
+      animation: "true",
       SvgClass: "-z-10",
       content: (
         <>
@@ -35,6 +36,7 @@ const Founder = () => {
       top: 10,
       left: 60,
       width: 158,
+      animation: "true",
       height: 158,
       viewBox: "0 0 158 158",
       content: (
@@ -63,6 +65,7 @@ const Founder = () => {
       top: 0,
       left: 0,
       width: 320,
+      animation: "true",
       height: 320,
       viewBox: "0 0 320 320",
       SvgClass: "-z-10",

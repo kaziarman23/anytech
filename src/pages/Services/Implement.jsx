@@ -11,6 +11,7 @@ const Implement = () => {
       height: 229,
       viewBox: "0 0 229 229",
       SvgClass: "-z-10",
+      animation:"true",
       content: (
         <>
           <path
@@ -39,6 +40,7 @@ const Implement = () => {
       width: 108,
       height: 109,
       viewBox: "0 0 108 109",
+      animation:"true",
       content: (
         <>
           <ellipse
@@ -116,6 +118,7 @@ const Implement = () => {
       right: 0,
       width: 140,
       height: 139,
+      animation:"true",
       viewBox: "0 0 140 139",
       content: (
         <>

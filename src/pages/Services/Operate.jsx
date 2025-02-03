@@ -11,6 +11,7 @@ const Operate = () => {
       height: 492,
       viewBox: "0 0 474 492",
       SvgClass: "-z-10",
+      animation:"true",
       content: (
         <>
           <path
@@ -192,6 +193,7 @@ const Operate = () => {
       width: 116,
       height: 115,
       viewBox: "0 0 116 115",
+      animation:"true",
       content: (
         <>
           <ellipse
@@ -266,6 +268,7 @@ const Operate = () => {
       width: 100,
       height: 100,
       viewBox: "0 0 100 100",
+      animation:"true",
       content: (
         <>
           <ellipse

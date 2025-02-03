@@ -7,6 +7,7 @@ const BankingService = () => {
       right: 0,
       width: 229,
       height: 229,
+      animation:"true",
       viewBox: "0 0 229 229",
       SvgClass: "-z-10",
       content: (
@@ -35,6 +36,7 @@ const BankingService = () => {
       top: 0,
       left: 0,
       width: 320,
+      animation:"true",
       height: 320,
       viewBox: "0 0 320 320",
       SvgClass: "-z-10",
@@ -64,6 +66,7 @@ const BankingService = () => {
       top: 20,
       left: 70,
       width: 208,
+      animation:"true",
       height: 233,
       viewBox: "0 0 208 233",
       content: (
@@ -180,6 +183,7 @@ const BankingService = () => {
       top: 50,
       left: 0,
       width: 160,
+      animation:"true",
       height: 175,
       viewBox: "0 0 160 175",
       content: (

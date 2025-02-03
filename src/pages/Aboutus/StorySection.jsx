@@ -10,6 +10,7 @@ const StorySection = () => {
       width: 408,
       height: 408,
       viewBox: "0 0 408 408",
+      animation: "true",
       SvgClass: "-z-10",
       content: (
         <>
@@ -38,6 +39,7 @@ const StorySection = () => {
       left: 60,
       width: 158,
       height: 158,
+      animation: "true",
       viewBox: "0 0 158 158",
       content: (
         <>

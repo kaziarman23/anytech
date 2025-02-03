@@ -8,6 +8,7 @@ const Advertisement = () => {
       width: 115,
       height: 116,
       viewBox: "0 0 116 115",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -82,6 +83,7 @@ const Advertisement = () => {
       width: 74,
       height: 75,
       viewBox: "0 0 74 75",
+      animation: "true",
       content: (
         <>
           <circle
@@ -132,6 +134,7 @@ const Advertisement = () => {
       width: 89,
       height: 88,
       viewBox: "0 0 89 88",
+      animation: "true",
       content: (
         <>
           <ellipse

@@ -8,6 +8,7 @@ const CardService = () => {
       width: 229,
       height: 229,
       viewBox: "0 0 229 229",
+      animation: "true",
       SvgClass: "-z-10",
       content: (
         <>
@@ -35,6 +36,7 @@ const CardService = () => {
       top: 0,
       left: 0,
       width: 320,
+      animation: "true",
       height: 320,
       viewBox: "0 0 320 320",
       SvgClass: "-z-10",
@@ -63,6 +65,7 @@ const CardService = () => {
     {
       top: 50,
       left: 0,
+      animation: "true",
       width: 160,
       height: 175,
       viewBox: "0 0 160 175",
@@ -181,6 +184,7 @@ const CardService = () => {
       top: 20,
       left: 70,
       width: 208,
+      animation: "true",
       height: 233,
       viewBox: "0 0 208 233",
       content: (

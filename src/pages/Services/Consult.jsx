@@ -1,3 +1,4 @@
+import { MouseParallax } from "react-just-parallax";
 import ContactusBtn from "../../components/ContactusBtn";
 import ServiceSection from "../../components/ServiceSection";
 
@@ -9,6 +10,7 @@ const Consult = () => {
       width: 162,
       height: 182,
       viewBox: "0 0 162 182",
+      animation: "true",
       content: (
         <>
           <g filter="url(#filter0_d_6237_25011)">
@@ -136,7 +138,7 @@ const Consult = () => {
           "https://anytxn.com/backgrounds/home/futureOfFinance/background.svg"
         }
       />
-      <div className="w-4/5 h-52  mx-auto flex justify-between items-center relative">
+      <div className="w-4/5 h-52 border-2 bg-blue-500 rounded-3xl  mx-auto flex justify-between items-center relative overflow-hidden">
         <div className="w-2/3 h-full flex justify-center p-5 items-start flex-col gap-5 z-10">
           <h1 className="text-white text-5xl font-bold">
             Start your transformation
@@ -150,8 +152,13 @@ const Consult = () => {
           <ContactusBtn data={"Talk To Us"} />
         </div>
         {/* SVG Part*/}
+        <MouseParallax
+          strength={0.05}
+          isAbsolutelyPositioned
+          className="absolute w-full h-full overflow-hidden"
+        >
           <svg
-            className="absolute w-full h-full top-0 left-0 rounded-2xl"
+            className="absolute w-[120%] h-[120%] top-[-10%] left-[-10%] rounded-2xl"
             style={{
               background:
                 "radial-gradient(52.71% 158.13% at 3.13% 104.53%, #00E9EA 0%, #1F80F0 52.08%, #014AB8 100%)",
@@ -397,7 +404,9 @@ const Consult = () => {
               </linearGradient>
             </defs>
           </svg>
+        </MouseParallax>
       </div>
+
       <svg
         className="undefined max-h-[240px] md:my-sm my-lg w-full min-h-[60px]"
         preserveAspectRatio="xMidYMid slice"

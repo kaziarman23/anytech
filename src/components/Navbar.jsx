@@ -4,6 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 import { useState, useEffect } from "react";
 import ContactusBtn from "../components/ContactusBtn";
+import toast from "react-hot-toast";
 
 const Navbar = ({ showOnlySecondNav }) => {
   //stats
@@ -32,6 +33,15 @@ const Navbar = ({ showOnlySecondNav }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const handleDevelopment = () => {
+    toast(
+      "This Feature is under Development.\n\nInshaallah It will be available from Tomorrow.",
+      {
+        duration: 3000,
+      }
+    );
+  };
 
   const firstNavLinks = (
     <>
@@ -69,13 +79,13 @@ const Navbar = ({ showOnlySecondNav }) => {
           </summary>
           <ul className="p-2 text-black">
             <li className="border-b border-gray-300 hover:text-blue-500">
-              <Link to="">English</Link>
+              <p onClick={handleDevelopment}>English</p>
             </li>
             <li className="hover:text-blue-500 border-b border-gray-300">
-              <Link to="">Chinese</Link>
+              <p onClick={handleDevelopment}>Chinese</p>
             </li>
             <li className="hover:text-blue-500">
-              <Link to="">Russia</Link>
+              <p onClick={handleDevelopment}>Russia</p>
             </li>
           </ul>
         </details>
@@ -118,13 +128,13 @@ const Navbar = ({ showOnlySecondNav }) => {
           </summary>
           <ul className="p-2 text-black rounded-t-none">
             <li className="border-b border-gray-300 hover:text-blue-500">
-              <Link to="">English</Link>
+              <p onClick={handleDevelopment}>English</p>
             </li>
             <li className="hover:text-blue-500 border-b border-gray-300">
-              <Link to="">Chinese</Link>
+              <p onClick={handleDevelopment}>Chinese</p>
             </li>
             <li className="hover:text-blue-500">
-              <Link to="">Russia</Link>
+              <p onClick={handleDevelopment}>Russia</p>
             </li>
           </ul>
         </details>
@@ -187,7 +197,7 @@ const Navbar = ({ showOnlySecondNav }) => {
 
       {/* Second Nav Part */}
       {(isScrollingUp || showOnlySecondNav) && (
-        <div className="w-full bg-white fixed z-40">
+        <div className="w-full bg-white border-b fixed z-40">
           <div className="navbar w-4/5 mx-auto">
             <div className="navbar-start">
               <div className="dropdown">

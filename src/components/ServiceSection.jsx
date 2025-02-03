@@ -1,3 +1,7 @@
+import { ScrollParallax } from "react-just-parallax";
+import { motion } from "framer-motion";
+import { animateUpDown } from "../Animation/Animation";
+
 const ServiceSection = ({
   title,
   titleColor,
@@ -28,18 +32,19 @@ const ServiceSection = ({
           <p className="text-[#6582a5] ">{secondDescription}</p>
         </div>
         {/* Image || Right side content */}
-        {/* Background Top Image */}
-        <div
-          className="w-1/2 h-full flex justify-center items-center relative"
-          style={
-            TopBackgroundImage && {
-              backgroundImage: `url(${TopBackgroundImage})`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-            }
-          }
-        >
+        <div className="w-1/2 h-full flex justify-center items-center relative">
+          {/* Background Top Image */}
+          {TopBackgroundImage && (
+            <figure className="absolute w-full h-full top-0 left-0 -z-10">
+              <ScrollParallax isAbsolutelyPositioned>
+                <img
+                  src={TopBackgroundImage}
+                  alt={title}
+                  className="w-full h-full"
+                />
+              </ScrollParallax>
+            </figure>
+          )}
           <div className="w-4/5 h-4/5">
             {/* Background Image */}
             <figure className="w-full h-full flex justify-center items-center">
@@ -55,27 +60,31 @@ const ServiceSection = ({
             {/* Background Bottom Image */}
             {BottomBackgroundImage && (
               <figure className="absolute bottom-0 right-0">
-                <img
-                  src={BottomBackgroundImage}
-                  alt={title}
-                  className="w-full h-full"
-                />
+                <ScrollParallax isAbsolutelyPositioned>
+                  <img
+                    src={BottomBackgroundImage}
+                    alt={title}
+                    className="w-full h-full"
+                  />
+                </ScrollParallax>
               </figure>
             )}
 
             {/* Background Bottom Image */}
             {ExtraImage && (
-              <figure
+              <motion.figure
+                {...animateUpDown}
                 className={`absolute ${ExtraImageClass && ExtraImageClass}`}
               >
                 <img src={ExtraImage} alt={title} className="w-full h-full" />
-              </figure>
+              </motion.figure>
             )}
 
             {/* Dynamic SVG's  Part*/}
             {svgs.map((svg, index) => (
-              <figure
+              <motion.figure
                 key={index}
+                {...(svg.animation === "true" ? animateUpDown : {})}
                 className={`absolute ${svg.SvgClass && svg.SvgClass}`}
                 style={{
                   top: `${svg.top}%`,
@@ -93,7 +102,7 @@ const ServiceSection = ({
                 >
                   {svg.content}
                 </svg>
-              </figure>
+              </motion.figure>
             ))}
           </div>
         </div>
