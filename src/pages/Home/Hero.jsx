@@ -1,11 +1,12 @@
 import HeroBG from "../../assets/HeroBG.png";
 import ContactusBtn from "../../components/ContactusBtn";
-import NavBar from "../../components/Navbar";
+import Navbar from "../../components/Navbar";
 
 const Hero = () => {
   return (
     <div className="w-full h-screen relative">
-      <NavBar />
+      <Navbar />
+
       {/* Background Section */}
       <div className="absolute inset-0 w-full h-full">
         <div

@@ -1,9 +1,12 @@
+import Navbar from "../../components/Navbar";
+
 const Service = () => {
   return (
     <div
       className="w-full h-screen bg-[#05bbf2] relative"
       style={{ clipPath: "polygon(0 0, 100% 0%, 100% 60%, 0 93%)" }}
     >
+      <Navbar/>
       <div
         className="w-full h-full flex justify-start items-center relative"
         style={{ clipPath: "polygon(0 0, 100% 0%, 100% 52%, 0 93%)" }}

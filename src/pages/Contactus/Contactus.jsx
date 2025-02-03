@@ -287,7 +287,7 @@ const Contactus = () => {
           {/* Right Side Content */}
           <div className="w-3/4 h-full space-y-5 shadow-2xl shadow-white">
             {/* Contact Form */}
-            <form className="bg-white space-y-10 p-6 rounded-lg">
+            <form className="bg-white border border-gray-300 space-y-10 p-6 rounded-2xl">
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-700 font-medium">
@@ -296,7 +296,7 @@ const Contactus = () => {
                   <input
                     type="text"
                     placeholder="First Name"
-                    className="p-3 border rounded-md w-full"
+                    className="p-3 border border-black rounded-md w-full"
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -304,7 +304,7 @@ const Contactus = () => {
                   <input
                     type="text"
                     placeholder="Last Name"
-                    className="p-3 border rounded-md w-full"
+                    className="p-3 border border-black rounded-md w-full"
                   />
                 </div>
               </div>
@@ -314,7 +314,7 @@ const Contactus = () => {
                   <input
                     type="text"
                     placeholder="Job Title"
-                    className="p-3 border rounded-md w-full"
+                    className="p-3 border border-black rounded-md w-full"
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -324,7 +324,7 @@ const Contactus = () => {
                   <input
                     type="text"
                     placeholder="Company Name"
-                    className="p-3 border rounded-md w-full"
+                    className="p-3 border border-black rounded-md w-full"
                   />
                 </div>
               </div>
@@ -333,14 +333,14 @@ const Contactus = () => {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="p-3 border rounded-md w-full"
+                  className="p-3 border border-black rounded-md w-full"
                 />
               </div>
               <div className="flex flex-col gap-2">
                 <label className="text-gray-700 font-medium">Message</label>
                 <textarea
                   placeholder="Message"
-                  className="p-3 border rounded-md w-full h-32"
+                  className="p-3 border border-black rounded-md w-full h-32"
                 ></textarea>
               </div>
               <p className="text-[#1E4078]">
