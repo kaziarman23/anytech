@@ -341,7 +341,7 @@ const Operate = () => {
   ];
 
   return (
-    <div className="w-full h-full">
+    <div id="operate" className="w-full h-full">
       <ServiceSection
         title={"long-term efficiency"}
         heading={"Operate"}

@@ -2,13 +2,13 @@
   {
     "title": "Banking redesigned for innovation",
     "description": "Dive into the future of banking with our Banking-as-a-Service (BaaS) platform that gives you the tools you need to scale, innovate and adapt in today’s fast-paced digital environment.",
-    "borderColor":"hover:border-purple-500",
+    "borderColor":"purple",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/61cb26a6b98fbeb6ef82e2d964b984838834d93e-229x39.svg?w=320&auto=format"
   },
   {
     "title": "High-velocity payment processing",
     "description": "Enhance your payment processing capabilities with our Payment-as-a-Service (PaaS) solution. Experience our agile, scalable and secure infrastructure that facilitates all types of transactions with ease.",
-    "borderColor":"hover:border-blue-400",
+    "borderColor":"blue",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/9ffafb01cf5c215040fe652fd0e143b0e303d5e2-228x39.svg?w=320&auto=format"
   }
 ]

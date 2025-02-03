@@ -76,7 +76,7 @@ const StorySection = () => {
         }
         imageSize={"w-full h-1/2"}
         ExtraImage={"/storyImage.png"}
-        ExtraImageClass={"top-30 left-0 w-2/5 "}
+        ExtraImageClass={"top-40 left-0 w-2/5 "}
         svgs={SvgIcons}
       />
       <div className="w-4/5 h-full mx-auto">

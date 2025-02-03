@@ -2,13 +2,13 @@
   {
     "title": "Robust card issuance and management",
     "description": "Reimagine your card programmes with our Cards-as-a-Service (CaaS) solution. Leverage our robust platform to streamline card management and deliver superior customer experiences.",
-    "borderColor": "hover:border-green-400",
+    "borderColor": "green",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/b12b7b9bfebe5add1300ce96c8f8f092e99959f8-228x39.svg?w=320&auto=format"
   },
   {
     "title": "High-velocity payment processing",
     "description": "Enhance your payment processing capabilities with our Payment-as-a-Service (PaaS) solution. Experience our agile, scalable and secure infrastructure that facilitates all types of transactions with ease.",
-    "borderColor": "hover:border-blue-400",
+    "borderColor": "blue",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/9ffafb01cf5c215040fe652fd0e143b0e303d5e2-228x39.svg?w=320&auto=format"
   }
 ]

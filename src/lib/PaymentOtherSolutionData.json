@@ -2,13 +2,13 @@
   {
     "title": "Robust card issuance and management",
     "description": "Reimagine your card programmes with our Cards-as-a-Service (CaaS) solution. Leverage our robust platform to streamline card management and deliver superior customer experiences.",
-    "borderColor": "hover:border-green-400",
+    "borderColor": "green",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/b12b7b9bfebe5add1300ce96c8f8f092e99959f8-228x39.svg?w=320&auto=format"
   },
   {
     "title": "Banking redesigned for innovation",
     "description": "Dive into the future of banking with our Banking-as-a-Service (BaaS) platform that gives you the tools you need to scale, innovate and adapt in today’s fast-paced digital environment.",
-    "borderColor": "hover:border-purple-500",
+    "borderColor": "purple",
     "image": "https://cdn.sanity.io/images/6jywt20u/production/61cb26a6b98fbeb6ef82e2d964b984838834d93e-229x39.svg?w=320&auto=format"
   }
 ]

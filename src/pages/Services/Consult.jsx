@@ -117,7 +117,7 @@ const Consult = () => {
   ];
 
   return (
-    <div className="w-full h-full">
+    <div id="consult" className="w-full h-full">
       <ServiceSection
         title={"Taking the First Step"}
         heading={"Consult"}
