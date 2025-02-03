@@ -1,8 +1,13 @@
+import { Helmet } from "react-helmet";
 import ContactusBtn from "../../components/ContactusBtn";
 
 const Contactus = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us | AnyTech</title>
+      </Helmet>
       <div className="w-full h-full relative overflow-hidden">
         {/* SVG Part*/}
         <div

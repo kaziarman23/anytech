@@ -11,3 +11,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+  
+}

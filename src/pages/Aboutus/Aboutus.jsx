@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import AboutUsSection from "./AboutUsSection";
 import FinancialInstitutionSection from "./FinancialInstitutionSection";
 import Founder from "./Founder";
@@ -7,14 +8,20 @@ import Values from "./Values";
 
 const Aboutus = () => {
   return (
-    <div>
-      <AboutUsSection />
-      <StorySection />
-      <FinancialInstitutionSection />
-      <Mission />
-      <Values />
-      <Founder />
-    </div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | AnyTech</title>
+      </Helmet>
+      <div>
+        <AboutUsSection />
+        <StorySection />
+        <FinancialInstitutionSection />
+        <Mission />
+        <Values />
+        <Founder />
+      </div>
+    </>
   );
 };
 

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import AnyBaaSSection from "./AnyBaaSSection";
 import BankingBenefits from "./BankingBenefits";
 import BankingFeatures from "./BankingFeatures";
@@ -7,6 +8,11 @@ import BankingService from "./BankingService";
 
 const AnyBaaS = () => {
   return (
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Banking Services | AnyTech</title>
+      </Helmet>
     <div>
       <AnyBaaSSection />
       <BankingService />
@@ -15,6 +21,7 @@ const AnyBaaS = () => {
       <BankingReview />
       <BankingOtherSolutions />
     </div>
+    </>
   );
 };
 

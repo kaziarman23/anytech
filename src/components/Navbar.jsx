@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import ContactusBtn from "../components/ContactusBtn";
 import toast from "react-hot-toast";
 
-const Navbar = ({ showOnlySecondNav }) => {
+const Navbar = () => {
   //stats
   const [isScrollingUp, setIsScrollingUp] = useState(false);
 
@@ -145,7 +145,7 @@ const Navbar = ({ showOnlySecondNav }) => {
   return (
     <>
       {/* First Nav Part */}
-      {!showOnlySecondNav && !isScrollingUp && (
+      {!isScrollingUp && (
         <div className="w-full bg-gradient-to-b from-blue-700 absolute z-50">
           <div className="navbar w-4/5 mx-auto text-white">
             <div className="navbar-start">
@@ -196,7 +196,7 @@ const Navbar = ({ showOnlySecondNav }) => {
       )}
 
       {/* Second Nav Part */}
-      {(isScrollingUp || showOnlySecondNav) && (
+      {isScrollingUp && (
         <div className="w-full bg-white border-b fixed z-40">
           <div className="navbar w-4/5 mx-auto">
             <div className="navbar-start">

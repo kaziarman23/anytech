@@ -52,3 +52,5 @@ export const animateUpDown = {
     times: [0, 0.5, 1],
   },
 };
+
+

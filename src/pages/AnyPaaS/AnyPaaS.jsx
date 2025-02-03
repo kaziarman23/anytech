@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import AnyPaaSSection from "./AnyPaaSSection";
 import PaymentBenefits from "./PaymentBenefits";
 import PaymentFeatures from "./PaymentFeatures";
@@ -7,14 +8,20 @@ import PaymentService from "./PaymentService";
 
 const AnyPaaS = () => {
   return (
-    <div>
-      <AnyPaaSSection />
-      <PaymentService />
-      <PaymentFeatures />
-      <PaymentBenefits />
-      <PaymentReview />
-      <PaymentOtherSolution />
-    </div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Payment Services | AnyTech</title>
+      </Helmet>
+      <div>
+        <AnyPaaSSection />
+        <PaymentService />
+        <PaymentFeatures />
+        <PaymentBenefits />
+        <PaymentReview />
+        <PaymentOtherSolution />
+      </div>
+    </>
   );
 };
 
