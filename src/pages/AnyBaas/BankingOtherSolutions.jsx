@@ -1,5 +1,5 @@
 import SectionHeading from "../../components/SectionHeading";
-import ServiceCard from "../../components/serviceCard";
+import ServiceCard from "../../components/ServiceCard";
 import data from "../../lib/BankingOtherSectionData.json";
 
 const BankingOtherSolutions = () => {
