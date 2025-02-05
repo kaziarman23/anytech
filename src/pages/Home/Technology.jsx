@@ -26,27 +26,49 @@ const Technology = () => {
   );
 
   return (
-    <div className="w-full h-full">
-      <div className="w-4/5 h-full mx-auto">
+    <div className="w-full h-full px-4 md:px-8 lg:px-16">
+      <div className="w-full mx-auto">
         <SectionHeading
-          title={"TECHNOLOGY BUILT FOR YOU"}
-          description={"The future of finance"}
+          title="TECHNOLOGY BUILT FOR YOU"
+          description="The future of finance"
         />
-        {/* Carousel Button Part */}
-        <div className="w-full h-full my-5 text-[#2985f1] flex justify-evenly items-center">
-          {CarouselData.map((slide, index) => (
-            <button
-              key={index}
-              className={`px-10 py-3 text-xl rounded-2xl cursor-pointer transition-all ${
-                selectedIndex === index ? "bg-[#b8d8ff]" : "hover:bg-[#f5fbfe]"
-              }`}
-              onClick={() => scrollTo(index)}
-            >
-              {slide.title}
-            </button>
-          ))}
+
+        {/* Navigation Buttons */}
+        <div className="w-full flex justify-center my-5 text-[#2985f1]">
+          {/* Show Text Buttons on md & Larger | Dots on sm */}
+          <div className="hidden md:flex flex-wrap gap-2 lg:gap-4">
+            {CarouselData.map((slide, index) => (
+              <button
+                key={index}
+                className={`px-5 md:px-6 py-2 md:py-3 text-base md:text-xs lg:text-base xl:text-2xl rounded-lg transition-all ${
+                  selectedIndex === index
+                    ? "bg-[#b8d8ff]"
+                    : "hover:bg-[#f5fbfe]"
+                }`}
+                onClick={() => scrollTo(index)}
+              >
+                {slide.title}
+              </button>
+            ))}
+          </div>
+
+          {/* Dots for Small Screens */}
+          <div className="flex md:hidden gap-2">
+            {CarouselData.map((_, index) => (
+              <div
+                key={index}
+                className={`w-3 h-3 rounded-full cursor-pointer transition-all ${
+                  selectedIndex === index
+                    ? "bg-[#2985f1] scale-125"
+                    : "bg-gray-300"
+                }`}
+                onClick={() => scrollTo(index)}
+              ></div>
+            ))}
+          </div>
         </div>
-        {/* Carousel card Part */}
+
+        {/* Carousel Content */}
         <div
           className="embla overflow-hidden rounded-xl shadow-2xl p-5"
           ref={emblaRef}
@@ -54,27 +76,30 @@ const Technology = () => {
           <div className="flex">
             {CarouselData.map((data, index) => (
               <div key={index} className="flex-none w-full p-5">
-                <div className="flex justify-center items-center">
-                  <div className="w-1/2 flex flex-col gap-7">
-                    <p className="text-[#579FF3] font-extrabold tracking-[4px]">
+                <div className="flex flex-col md:flex-row items-center md:items-start">
+                  {/* Left Side - Text (Always Left Aligned) */}
+                  <div className="w-full md:w-1/2 flex flex-col gap-4 md:gap-7 text-left">
+                    <p className="text-[#579FF3] font-extrabold tracking-[2px] md:tracking-[4px]">
                       {data.title}
                     </p>
-                    <h1 className="text-4xl text-[#1E4068] font-bold">
+                    <h1 className="text-2xl md:text-4xl text-[#1E4068] font-bold">
                       {data.content}
                     </h1>
-                    <p className="text-[#1E4068] font-bold">
+                    <p className="text-[#1E4068] font-bold text-sm md:text-base">
                       {data.description}
                     </p>
-                    <p className="text-[#94a8c0] font-bold">
+                    <p className="text-[#94a8c0] font-bold text-xs md:text-sm">
                       {data.secondDescription}
                     </p>
                   </div>
-                  <div className="w-1/2 flex justify-center items-center p-5">
-                    <figure className="w-full object-cover">
+
+                  {/* Right Side - Image */}
+                  <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center p-5">
+                    <figure className="w-full max-w-xs md:max-w-sm lg:max-w-md">
                       <img
                         src={data.image}
                         alt={data.title}
-                        className="h-full w-full object-cover rounded-2xl"
+                        className="h-auto w-full object-cover rounded-2xl"
                       />
                     </figure>
                   </div>
@@ -84,8 +109,10 @@ const Technology = () => {
           </div>
         </div>
       </div>
+
+      {/* Decorative SVG */}
       <svg
-        className="undefined max-h-[240px] md:my-sm my-lg w-full min-h-[60px]"
+        className="w-full h-auto max-h-[120px] md:max-h-[180px] lg:max-h-[240px] mt-10"
         preserveAspectRatio="xMidYMid slice"
         viewBox="0 0 1920 280"
         fill="none"

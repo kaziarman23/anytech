@@ -7,7 +7,9 @@ const SectionHeading = ({ title, titleColor, description }) => {
       >
         {title}
       </p>
-      <h1 className="text-5xl text-[#1E4068] font-bold">{description}</h1>
+      <h1 className="text-2xl text-[#1E4068] font-bold lg:text-3xl xl:text-5xl">
+        {description}
+      </h1>
     </div>
   );
 };

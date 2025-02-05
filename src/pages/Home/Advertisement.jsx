@@ -3,8 +3,7 @@ import ServiceSection from "../../components/ServiceSection";
 const Advertisement = () => {
   const SvgIcons = [
     {
-      top: 20,
-      left: 70,
+      Positions: `top-0 right-0 lg:right-10 lg:top-10 xl:top-20`,
       width: 115,
       height: 116,
       viewBox: "0 0 116 115",
@@ -78,8 +77,7 @@ const Advertisement = () => {
       ),
     },
     {
-      top: 30,
-      left: 12,
+      Positions: `top-20 left-0 sm:top-60 sm:left-10 lg:top-40 lg:left-20`,
       width: 74,
       height: 75,
       viewBox: "0 0 74 75",
@@ -129,8 +127,7 @@ const Advertisement = () => {
       ),
     },
     {
-      top: 40,
-      left: 25,
+      Positions: `top-48 left-10 sm:top-96 sm:left-32 lg:top-80 lg:left-32 xl:left-28 xl:top-72`,
       width: 89,
       height: 88,
       viewBox: "0 0 89 88",
@@ -193,7 +190,6 @@ const Advertisement = () => {
     <div className="w-full h-full">
       <ServiceSection
         title={"POWERING THE FUTURE OF FINANCE"}
-        // titleColor={""}
         heading={"Uncovering new ways to delight customers"}
         description={
           "AnyTech is revolutionising financial technology by introducing innovative and real-time transaction account processing capabilities, specifically designed for retail financial services."

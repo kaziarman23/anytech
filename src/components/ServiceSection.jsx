@@ -17,22 +17,25 @@ const ServiceSection = ({
   svgs = [],
 }) => {
   return (
-    <div className="w-full h-full">
-      <div className="w-4/5 h-screen mx-auto flex justify-center items-center">
+    <div className="w-full h-full lg:h-screen">
+      <div className="w-full h-full mx-auto flex justify-center items-center flex-col gap-10 lg:flex-row xl:w-4/5">
         {/* Advertisement || Left side content */}
-        <div className="w-1/2 h-full flex justify-center flex-col gap-7 p-2">
+        <div className="w-full h-full flex justify-center flex-col gap-7 p-2">
           <p
-            className={`font-extrabold uppercase tracking-[4px]
+            className={`
+            font-extrabold uppercase tracking-[4px] text-sm sm:text-base
             ${titleColor ? titleColor : "text-[#579FF3]"}`}
           >
             {title}
           </p>
-          <h1 className="text-5xl text-[#1E4068] font-bold">{heading}</h1>
-          <p className="text-[#1E4068] font-bold">{description}</p>
-          <p className="text-[#6582a5] ">{secondDescription}</p>
+          <h1 className="text-2xl text-[#1E4068] font-bold sm:text-5xl">
+            {heading}
+          </h1>
+          <p className="text-[#1E4068] font-bold text-sm">{description}</p>
+          <p className="text-[#6582a5] text-sm">{secondDescription}</p>
         </div>
         {/* Image || Right side content */}
-        <div className="w-1/2 h-full flex justify-center items-center relative">
+        <div className="w-full h-full flex justify-center items-center relative">
           {/* Background Top Image */}
           {TopBackgroundImage && (
             <figure className="absolute w-full h-full top-0 left-0 -z-10">
@@ -46,7 +49,7 @@ const ServiceSection = ({
             </figure>
           )}
           <div className="w-4/5 h-4/5">
-            {/* Background Image */}
+            {/* Image */}
             <figure className="w-full h-full flex justify-center items-center">
               <img
                 src={image}
@@ -85,13 +88,9 @@ const ServiceSection = ({
               <motion.figure
                 key={index}
                 {...(svg.animation === "true" ? animateUpDown : {})}
-                className={`absolute ${svg.SvgClass && svg.SvgClass}`}
-                style={{
-                  top: `${svg.top}%`,
-                  left: `${svg.left}%`,
-                  right: svg.right !== undefined ? `${svg.right}%` : "auto",
-                  bottom: svg.bottom !== undefined ? `${svg.bottom}%` : "auto",
-                }}
+                className={`absolute 
+                  ${svg.SvgClass && svg.SvgClass} 
+                  ${svg.Positions && svg.Positions}`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

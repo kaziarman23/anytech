@@ -12,16 +12,21 @@ const Footer = () => {
             clipPath: "polygon(0% 10%, 100% 64%, 100% 100%, 0% 100%)",
           }}
         >
-          {/* context part */}
-          <div className="w-4/5 h-1/2 space-y-10 text-white relative z-10">
-            <h1 className="text-7xl">Legacy no longer</h1>
-            <p className="text-lg">
+          {/* Content Section */}
+          <div className="w-4/5 h-1/2 space-y-6 text-white relative z-10 text-center md:text-left md:w-3/5 lg:w-1/2">
+            <h1 className="text-4xl md:text-5xl font-bold">
+              Legacy no longer
+            </h1>
+            <p className="text-base md:text-lg">
               Talk to us to find out how we can transform your organisation for
               the future
             </p>
-            <ContactusBtn />
+            <div className="flex justify-center md:justify-start">
+              <ContactusBtn />
+            </div>
           </div>
-          {/* SVG'S */}
+
+          {/* SVGs */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
             <MouseParallax strength={0.1}>
               <svg
@@ -1549,40 +1554,42 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Middle Part */}
-      <div className="w-full h-full bg-[#002045]">
-        <div className="w-4/5 h-full mx-auto">
-          <div className="w-full h-40 flex justify-between items-center">
-            {/* Logo */}
-            <img src={Logo} alt="Logo" />
+      {/* Footer Center Section */}
+      <div className="w-full bg-[#002045] p-5">
+        <div className="w-4/5 mx-auto flex flex-col md:flex-row items-center justify-between">
+          {/* Logo */}
+          <img
+            src={Logo}
+            alt="Logo"
+            className="max-w-[150px] md:max-w-[200px] object-contain"
+          />
 
-            <div className="text-[#01dce0] flex justify-center items-center gap-5">
-              <h1 className=" text-lg font-bold">Our Solutions</h1>
-              <div className="flex justify-center items-center gap-5 p-5 border-l-2 border-[#01dce0] ">
-                <button className="cursor-pointer hover:text-blue-500">
-                  AnyCaaS
-                </button>
-                <button className="cursor-pointer hover:text-blue-500">
-                  AnyBaaS
-                </button>
-                <button className="cursor-pointer hover:text-blue-500">
-                  AnyPaaS
-                </button>
-              </div>
+          {/* Navigation */}
+          <div className="text-[#01dce0] flex flex-col md:flex-row items-center gap-3 md:gap-5 text-center mt-3 md:mt-0">
+            <h1 className="text-lg font-bold">Our Solutions</h1>
+            <div className="flex gap-3 md:gap-5 p-3 md:p-5 border-t-2 md:border-t-0 md:border-l-2 border-[#01dce0]">
+              <button className="cursor-pointer hover:text-blue-500">
+                AnyCaaS
+              </button>
+              <button className="cursor-pointer hover:text-blue-500">
+                AnyBaaS
+              </button>
+              <button className="cursor-pointer hover:text-blue-500">
+                AnyPaaS
+              </button>
             </div>
           </div>
         </div>
       </div>
-      {/* Footer Ending Part */}
-      <div className="w-full h-full bg-[#00142c]">
-        <div className="w-4/5 h-full mx-auto">
-          <div className="w-full h-20 flex justify-between items-center">
-            <p className="">
-              <span className="text-[#4489d8]">©2023 All rights reserved.</span>{" "}
-              <span className="text-[#186ed1]">Any Technology Pte Ltd.</span>
-            </p>
-            <p className="text-[#186ed1]">Privacy Policy</p>
-          </div>
+
+      {/* Footer End Section */}
+      <div className="w-full bg-[#00142c] p-5">
+        <div className="w-4/5 mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+          <p className="text-sm">
+            <span className="text-[#4489d8]">©2023 All rights reserved.</span>
+            <span className="text-[#186ed1]">Any Technology Pte Ltd.</span>
+          </p>
+          <p className="text-[#186ed1] mt-3 md:mt-0">Privacy Policy</p>
         </div>
       </div>
     </>
