@@ -1,14 +1,14 @@
 const ServiceSolution = () => {
   return (
     <div className="w-full h-full">
-      <div className="w-4/5 h-full mx-auto">
-        <h1 className="text-5xl text-center text-[#1E4068] font-bold mb-5">
+      <div className="w-11/12 h-full mx-auto sm:w-4/5">
+        <h1 className="text-2xl text-center text-[#1E4068] font-bold mb-5 xl:text-5xl">
           Our solutions
         </h1>
 
         {/* card part */}
-        <div className="flex justify-center items-center gap-3">
-          <div className="w-1/3 rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#1CC800] cursor-pointer shadow-2xl">
+        <div className="flex justify-center items-center flex-col gap-5 lg:flex-row lg:gap-2">
+          <div className="w-full rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#1CC800] cursor-pointer shadow-2xl lg:w-1/3">
             <h1 className="bg-gradient-to-r from-[#1CC800] via-[#1CC800] to-[#014AB8] text-5xl w-4/5 bg-clip-text text-transparent font-bold">
               AnyCaaS
             </h1>
@@ -28,7 +28,7 @@ const ServiceSolution = () => {
               experiences, and more.
             </p>
           </div>
-          <div className="w-1/3 rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#9747FF] cursor-pointer shadow-2xl">
+          <div className="w-full rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#9747FF] cursor-pointer shadow-2xl lg:w-1/3">
             <h1 className="bg-gradient-to-r from-[#9747FF] via-[#9747FF] to-[#014AB8] text-5xl w-4/5 bg-clip-text text-transparent font-bold">
               AnyBaaS
             </h1>
@@ -48,7 +48,7 @@ const ServiceSolution = () => {
               today’s fast-paced digital environment.
             </p>
           </div>
-          <div className="w-1/3 rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#40FEFF] cursor-pointer shadow-2xl">
+          <div className="w-full rounded-2xl p-5 space-y-5 border-2 border-white hover:border-[#40FEFF] cursor-pointer shadow-2xl lg:w-1/3">
             <h1 className="bg-gradient-to-r from-[#40FEFF] via-[#40FEFF] to-[#014AB8] text-5xl w-4/5 bg-clip-text text-transparent font-bold">
               AnyPaaS
             </h1>

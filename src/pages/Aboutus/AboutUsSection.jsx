@@ -20,11 +20,11 @@ const AboutUsSection = () => {
             <p className="text-[#05cae1] font-extrabold  tracking-[4px]">
               ABOUT US
             </p>
-            <h1 className="text-7xl text-white font-bold">
+            <h1 className="text-base text-white font-bold sm:text-3xl lg:text-5xl xl:text-7xl">
               Paving the way <br />
               ahead for finance
             </h1>
-            <p className="text-white">
+            <p className="text-white text-sm lg:text-lg xl:text-2xl">
               We’re building technologies that will power the future of <br />
               banking and beyond
             </p>

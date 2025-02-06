@@ -5,9 +5,8 @@ import ServiceSection from "../../components/ServiceSection";
 const Consult = () => {
   const SvgIcons = [
     {
-      top: 20,
-      left: 0,
-      width: 162,
+      Positions: `-top-20 left-0 sm:left-8 lg:top-20 xl:top-32 xl:left-0`,
+      width: `80 xl:130`,
       height: 182,
       viewBox: "0 0 162 182",
       animation: "true",
@@ -138,17 +137,17 @@ const Consult = () => {
           "https://anytxn.com/backgrounds/home/futureOfFinance/background.svg"
         }
       />
-      <div className="w-4/5 h-52 border-2 bg-blue-500 rounded-3xl  mx-auto flex justify-between items-center relative overflow-hidden">
-        <div className="w-2/3 h-full flex justify-center p-5 items-start flex-col gap-5 z-10">
-          <h1 className="text-white text-5xl font-bold">
+      <div className="w-full h-full mt-10 border-2 bg-blue-500 rounded-3xl  mx-auto flex justify-center items-center relative overflow-hidden flex-col sm:flex-row sm:justify-between md:w-4/5 xl:mt-0">
+        <div className="w-full h-full flex justify-center p-5 items-start flex-col gap-5 z-10 sm:w-2/3">
+          <h1 className="text-white text-lg font-bold lg:text-2xl">
             Start your transformation
           </h1>
-          <p className="text-white">
+          <p className="text-white lg:text-lg">
             We are ready to serve as strategic partners to provide your
             organisation with the support you need.
           </p>
         </div>
-        <div className="w-1/3 h-full flex justify-center items-center z-10">
+        <div className="w-4/5 h-full my-8 flex justify-start items-center z-10 sm:justify-center sm:w-1/3">
           <ContactusBtn data={"Talk To Us"} />
         </div>
         {/* SVG Part*/}

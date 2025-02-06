@@ -9,11 +9,11 @@ const Mission = () => {
         description={"Redefining tomorrow"}
       />
       <div className="w-4/5 h-80 bg-blue-500 rounded-2xl p-5 mx-auto mt-10 flex justify-between items-center relative overflow-hidden">
-        <div className="w-full h-full flex justify-center p-5 items-start flex-col gap-5 z-10">
+        <div className="w-full h-full flex justify-center items-start flex-col gap-5 z-10 lg:p-5">
           <h1 className="text-[#01dce0] font-extrabold  tracking-wider">
             Our Mission
           </h1>
-          <p className="text-white text-5xl">
+          <p className="text-white text-base md:text-2xl lg:text-4xl xl:text-5xl">
             To redefine global finance by empowering institutions with
             technology that drives value and growth.
           </p>

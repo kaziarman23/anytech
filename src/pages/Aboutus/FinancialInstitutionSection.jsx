@@ -6,7 +6,7 @@ const FinancialInstitutionSection = () => {
     <div className="w-full h-screen">
       <div className="w-4/5 h-full mx-auto flex justify-center items-center flex-col gap-10">
         <div className="h-32 relative flex justify-center items-end">
-          <h1 className="text-4xl text-left text-[#1E4068] font-bold">
+          <h1 className="text-base sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl text-left text-[#1E4068] font-bold">
             Empowering more than{" "}
             <span className="text-blue-500"> 40 financial institutions</span> to
             transform in a digital-first world.

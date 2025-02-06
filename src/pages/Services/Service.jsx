@@ -12,15 +12,15 @@ const Service = () => {
       >
         {/* Content Part */}
         <div className="w-4/5 h-full mx-auto flex items-center z-20">
-          <div className="w-4/5  space-y-5">
-            <p className="text-[#05cae1] font-extrabold  tracking-[4px]">
+          <div className="w-4/5 space-y-5">
+            <p className="text-[#05cae1] font-extrabold tracking-[4px]">
               OUR SERVICES
             </p>
-            <h1 className="text-7xl text-white font-bold">
+            <h1 className="text-base text-white font-bold sm:text-lg md:text-2xl lg:text-4xl xl:text-7xl">
               Reimagining <br />
               banking solutions
             </h1>
-            <p className="text-white">
+            <p className="text-white text-sm lg:text-base xl:text-lg">
               Enabling financial institutions to create unparalleled <br />{" "}
               customer experiences
             </p>

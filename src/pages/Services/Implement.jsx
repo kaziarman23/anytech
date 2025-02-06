@@ -5,13 +5,12 @@ import datas from "../../lib/ImplementSectionData.json";
 const Implement = () => {
   const SvgIcons = [
     {
-      bottom: 12,
-      right: 0,
+      Positions: `-bottom-10 right-0 lg:bottom-10 lg:right-10 xl:right-0`,
       width: 229,
       height: 229,
       viewBox: "0 0 229 229",
       SvgClass: "-z-10",
-      animation:"true",
+      animation: "true",
       content: (
         <>
           <path
@@ -35,12 +34,11 @@ const Implement = () => {
       ),
     },
     {
-      top: 40,
-      left: 0,
-      width: 108,
+      Positions: `top-32 left-0 sm:left-10 lg:top-80 lg:left-16 xl:left-10`,
+      width: `60`,
       height: 109,
       viewBox: "0 0 108 109",
-      animation:"true",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -114,11 +112,10 @@ const Implement = () => {
       ),
     },
     {
-      top: 12,
-      right: 0,
-      width: 140,
+      Positions: `-top-12 right-0 sm:right-10 lg:top-10`,
+      width: `90`,
       height: 139,
-      animation:"true",
+      animation: "true",
       viewBox: "0 0 140 139",
       content: (
         <>
@@ -214,7 +211,7 @@ const Implement = () => {
         }
         svgs={SvgIcons}
       />
-      <div className="w-4/5 h-full mx-auto">
+      <div className="w-4/5 h-full mx-auto mt-10 lg:mt-0">
         <CardSection
           data={datas}
           hight={"h-1/2"}

@@ -3,8 +3,7 @@ import ServiceSection from "../../components/ServiceSection";
 const Founder = () => {
   const SvgIcons = [
     {
-      bottom: 12,
-      right: 0,
+      Positions:`bottom-0 right-0 lg:bottom-10 lg:right-10`,
       width: 229,
       height: 229,
       viewBox: "0 0 229 229",
@@ -33,8 +32,7 @@ const Founder = () => {
       ),
     },
     {
-      top: 10,
-      left: 60,
+      Positions:`top-0 right-0 sm:right-20 lg:top-10 lg:right-10`,
       width: 158,
       animation: "true",
       height: 158,
@@ -62,8 +60,7 @@ const Founder = () => {
       ),
     },
     {
-      top: 0,
-      left: 0,
+      Positions:`-top-10 -left-10 lg:top-10 lg:left-10`,
       width: 320,
       animation: "true",
       height: 320,

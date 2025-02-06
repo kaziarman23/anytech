@@ -5,9 +5,8 @@ import datas from "../../lib/StorySectionData.json";
 const StorySection = () => {
   const SvgIcons = [
     {
-      bottom: 20,
-      left: 30,
-      width: 408,
+      Positions: `-bottom-48 right-0 sm:right-10 lg:-bottom-8 lg:right-5`,
+      width: `100`,
       height: 408,
       viewBox: "0 0 408 408",
       animation: "true",
@@ -35,8 +34,7 @@ const StorySection = () => {
       ),
     },
     {
-      top: 20,
-      left: 60,
+      Positions: `top-0 right-0 lg:top-20`,
       width: 158,
       height: 158,
       animation: "true",
@@ -78,10 +76,10 @@ const StorySection = () => {
         }
         imageSize={"w-full h-1/2"}
         ExtraImage={"/storyImage.png"}
-        ExtraImageClass={"top-40 left-0 w-2/5 "}
+        ExtraImageClass={"w-2/5 top-0 left-0 lg:top-28"}
         svgs={SvgIcons}
       />
-      <div className="w-4/5 h-full mx-auto">
+      <div className="w-4/5 h-full mx-auto mt-10 lg:mt-0">
         <CardSection data={datas} className={"shadow-2xl"} hight={"h-96"} />
       </div>
       <svg

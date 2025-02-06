@@ -5,11 +5,10 @@ import data from "../../lib/WhatWeDoSectionData.json";
 const WhatWeDo = () => {
   const SvgIcons = [
     {
-      top: 20,
-      left: 75,
-      width: 148,
-      height: 147,
-      viewBox: "0 0 148 147",
+      Positions:`-top-10 right-0 sm:right-10 lg:top-10 xl:top-20`,
+      width: `80 sm:100 xl:120`,
+      height: `100`,
+      viewBox: "0 0 150 150",
       animation: "true",
       content: (
         <>
@@ -84,11 +83,10 @@ const WhatWeDo = () => {
       ),
     },
     {
-      top: 60,
-      left: 0,
-      width: 108,
+      Positions:`top-40 left-0 sm:top-80 sm:left-10 md:top-96 md:left-10 lg:top-80`,
+      width: `60 sm:72 lg:40`,
       height: 109,
-      viewBox: "0 0 108 109",
+      viewBox: "0 0 150 150",
       animation: "true",
       content: (
         <>
@@ -185,7 +183,7 @@ const WhatWeDo = () => {
         svgs={SvgIcons}
       />
       {/* Card Part */}
-      <div className="w-4/5 h-full mx-auto">
+      <div className="w-4/5 h-full mx-auto mt-10">
         <CardSection
           data={data}
           className={

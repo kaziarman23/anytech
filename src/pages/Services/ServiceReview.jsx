@@ -5,7 +5,7 @@ const ServiceReview = () => {
   return (
     <div className="w-full h-full">
       <div className="w-4/5 h-full mx-auto">
-        <p className="text-[#0057BB] font-extrabold text-center p-5 mb-2 tracking-wider text-xl">
+        <p className="text-[#0057BB] font-extrabold text-center p-5 mb-2 tracking-wider text-base sm:text-xl">
           TRUSTED BY THE BEST
         </p>
         

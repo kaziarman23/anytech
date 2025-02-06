@@ -2,7 +2,7 @@
 const CardSection = ({ data, CardBg, className, hight }) => {
   return (
     <div className="w-full h-full">
-      <div className="grid grid-cols-3 gap-5 place-items-center">
+      <div className="grid grid-cols-1 gap-5 place-items-center lg:grid-cols-3">
         {data.map((content, index) => (
           <a
             key={index}
@@ -29,7 +29,7 @@ const CardSection = ({ data, CardBg, className, hight }) => {
               <h1 className="text-[#1E4068] text-2xl font-bold">
                 {content.title}
               </h1>
-              <p className="text-[#3d6f9c]">{content.description}</p>
+              <p className="text-[#3d6f9c] text-sm xl:text-lg">{content.description}</p>
             </div>
           </a>
         ))}

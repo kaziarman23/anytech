@@ -5,13 +5,12 @@ import datas from "../../lib/OperateSectionData.json";
 const Operate = () => {
   const SvgIcons = [
     {
-      top: 10,
-      left: 0,
-      width: 474,
-      height: 492,
-      viewBox: "0 0 474 492",
+      Positions: `-top-10 -left-10 lg:top-10 lg:left-0`,
+      width: `400`,
+      height: `400`,
+      viewBox: "0 0 400 400",
       SvgClass: "-z-10",
-      animation:"true",
+      animation: "true",
       content: (
         <>
           <path
@@ -188,12 +187,11 @@ const Operate = () => {
       ),
     },
     {
-      top: 50,
-      left: 4,
-      width: 116,
+      Positions:`top-20 left-0 sm:top-80 sm:left-10`,
+      width: `60`,
       height: 115,
       viewBox: "0 0 116 115",
-      animation:"true",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -263,12 +261,11 @@ const Operate = () => {
       ),
     },
     {
-      top: 10,
-      left: 75,
-      width: 100,
+      Positions:`-top-10 right-0 sm:right-8 lg:top-10 lg:right-12 xl:top-20 xl:right-8`,
+      width: `80`,
       height: 100,
       viewBox: "0 0 100 100",
-      animation:"true",
+      animation: "true",
       content: (
         <>
           <ellipse
@@ -363,7 +360,7 @@ const Operate = () => {
         }
         svgs={SvgIcons}
       />
-      <div className="w-4/5 h-full mx-auto">
+      <div className="w-4/5 h-full mx-auto mt-10 lg:mt-0">
         <CardSection data={datas} className={"border border-blue-300"} />
       </div>
       <svg
