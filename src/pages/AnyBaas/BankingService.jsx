@@ -3,11 +3,10 @@ import ServiceSection from "../../components/ServiceSection";
 const BankingService = () => {
   const SvgIcons = [
     {
-      bottom: 0,
-      right: 0,
+      Positions: `-bottom-20 -right-8 sm:right-0 lg:bottom-0`,
       width: 229,
       height: 229,
-      animation:"true",
+      animation: "true",  
       viewBox: "0 0 229 229",
       SvgClass: "-z-10",
       content: (
@@ -33,10 +32,9 @@ const BankingService = () => {
       ),
     },
     {
-      top: 0,
-      left: 0,
+      Positions: `-top-10 -left-20 sm:left-0 lg:top-0`,
       width: 320,
-      animation:"true",
+      animation: "true",
       height: 320,
       viewBox: "0 0 320 320",
       SvgClass: "-z-10",
@@ -63,10 +61,9 @@ const BankingService = () => {
       ),
     },
     {
-      top: 20,
-      left: 70,
-      width: 208,
-      animation:"true",
+      Positions: `-top-20 right-0 sm:right-0 lg:-top-10`,
+      width: `130`,
+      animation: "true",
       height: 233,
       viewBox: "0 0 208 233",
       content: (
@@ -180,10 +177,9 @@ const BankingService = () => {
       ),
     },
     {
-      top: 50,
-      left: 0,
-      width: 160,
-      animation:"true",
+      Positions: `top-32 -left-5 sm:left-5 sm:top-60 lg:top-80 lg:left-0`,
+      width: `130`,
+      animation: "true",
       height: 175,
       viewBox: "0 0 160 175",
       content: (

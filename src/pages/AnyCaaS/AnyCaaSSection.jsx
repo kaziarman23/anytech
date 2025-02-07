@@ -15,11 +15,11 @@ const AnyCaaSSection = () => {
       >
         {/* Content Part */}
         <div className="w-4/5 h-full mx-auto flex items-center z-20">
-          <div className="w-4/5  space-y-5">
+          <div className="w-4/5 space-y-2 lg:space-y-5">
             <p className="text-blue-500 font-extrabold  tracking-[4px]">
               our solutions
             </p>
-            <h1 className="text-7xl text-blue-500 font-bold">
+            <h1 className="text-base text-blue-500 font-bold sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl">
               Robust card issuance
               <br />
               and management

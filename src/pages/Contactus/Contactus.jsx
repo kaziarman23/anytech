@@ -274,26 +274,26 @@ const Contactus = () => {
           </div>
         </div>
         {/* Content Part */}
-        <div className="w-4/5 h-full p-5 mt-20 mx-auto flex justify-center items-start relative z-10">
+        <div className="w-full h-full p-5 mt-20 mx-auto flex justify-center items-center flex-col relative z-10 lg:justify-between lg:items-start lg:flex-row lg:gap-2 xl:w-4/5">
           {/* Left Side Content */}
-          <div className="w-1/4 space-y-5">
+          <div className="w-full space-y-5 lg:w-1/4">
             <p className="text-[#05cae1] font-extrabold tracking-[4px]">
               Contact US
             </p>
-            <h1 className="text-7xl text-white font-bold">
+            <h1 className="text-3xl text-white font-bold sm:text-5xl lg:text-3xl">
               Let’s <br />
               talk
             </h1>
-            <p className="text-white">
+            <p className="text-white text-sm sm:text-lg lg:text-base">
               Have questions about building the next generation of banking
               experiences, our pricing, or our customer success stories?
             </p>
           </div>
           {/* Right Side Content */}
-          <div className="w-3/4 h-full space-y-5 shadow-2xl shadow-white">
+          <div className="w-full h-full mt-5 space-y-5 shadow-2xl shadow-white lg:w-3/4">
             {/* Contact Form */}
             <form className="bg-white border border-gray-300 space-y-10 p-6 rounded-2xl">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-700 font-medium">
                     First Name
@@ -313,7 +313,7 @@ const Contactus = () => {
                   />
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <label className="text-gray-700 font-medium">Job Title</label>
                   <input

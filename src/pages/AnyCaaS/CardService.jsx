@@ -3,8 +3,7 @@ import ServiceSection from "../../components/ServiceSection";
 const CardService = () => {
   const SvgIcons = [
     {
-      bottom: 0,
-      right: 0,
+      Positions:`-bottom-20 -right-8 sm:right-0 lg:bottom-0`,
       width: 229,
       height: 229,
       viewBox: "0 0 229 229",
@@ -33,8 +32,7 @@ const CardService = () => {
       ),
     },
     {
-      top: 0,
-      left: 0,
+      Positions:`-top-10 -left-20 sm:left-0 lg:top-0`,
       width: 320,
       animation: "true",
       height: 320,
@@ -63,10 +61,9 @@ const CardService = () => {
       ),
     },
     {
-      top: 50,
-      left: 0,
+      Positions:`top-32 -left-5 sm:left-5 sm:top-60 lg:top-80 lg:left-0`,
       animation: "true",
-      width: 160,
+      width: `120`,
       height: 175,
       viewBox: "0 0 160 175",
       content: (
@@ -181,9 +178,8 @@ const CardService = () => {
       ),
     },
     {
-      top: 20,
-      left: 70,
-      width: 208,
+      Positions:`-top-20 right-0 sm:right-0 lg:-top-10`,
+      width: `130`,
       animation: "true",
       height: 233,
       viewBox: "0 0 208 233",
