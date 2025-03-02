@@ -35,7 +35,7 @@ const Navbar = () => {
 
   const handleDevelopment = () => {
     toast(
-      "This Feature is under Development.\n\nInshaallah It will be available from Tomorrow.",
+      "This Feature is under Development.\n\nInshaallah It will be available very soon.",
       {
         duration: 3000,
       }
