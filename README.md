@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # 💳 AnyTech – Fintech Frontend Platform
 
 AnyTech is revolutionising financial technology by introducing innovative and real-time transaction account processing capabilities, specifically designed for **retail financial services**.
@@ -10,7 +6,6 @@ Our modern approach surpasses traditional banking and card processing systems, e
 
 > ⚠️ **Note**: This repository contains only the **frontend** implementation of the AnyTech platform.
 
----
 
 ## 🚀 Live Demo
 
@@ -33,8 +28,7 @@ Delivers an agile, scalable, and secure infrastructure to handle all digital tra
 
 ## 🗂️ Project File Structure
 
-```
-
+```bash
 anytech-frontend/
 │
 ├── public/               # Static files
@@ -109,9 +103,6 @@ Feel free to reach out or contribute to this project!
 
 This project is licensed under the MIT License.
 
-```
-
----
 
 Would you like me to generate a badge section (e.g., build status, license, tech used) as well?
-```
+
